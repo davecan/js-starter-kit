@@ -1,3 +1,10 @@
+try {
+  require('os').networkInterfaces();
+}
+catch (e) {
+  require('os').networkInterfaces = () => ({});
+}
+
 import path from 'path';
 
 export default {
