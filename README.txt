@@ -1,0 +1,1 @@
+https://travis-ci.org/davecan/js-starter-kit.svg?branch=master
